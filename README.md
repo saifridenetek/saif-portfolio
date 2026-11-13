@@ -59,3 +59,4 @@ git push -u origin main
    - **Output Directory** : `dist`
 5. Cliquez sur **Deploy** !
 6. En moins d'une minute, votre portfolio est en ligne avec un lien mondial HTTPS (ex: `https://saif-ridene.vercel.app`).
+
