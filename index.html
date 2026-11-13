@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saif Eddine RIDENE | Ingénieur Génie Logiciel & Cloud DevOps</title>
+    <meta name="description" content="Portfolio de Saif Eddine RIDENE - Ingénieur Génie Logiciel (TEK-UP), Major de Promotion Électromécanique, Lead Repositories GitLab pour les projets PFE DocuCheck et PMA." />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Saif Eddine RIDENE - Portfolio" />
+    <meta property="og:description" content="Ingénieur Génie Logiciel & Cloud / DevOps. Découvrez mes réalisations GitLab / GitHub, mon leadership technique et mes projets." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/photo_profil.jpeg" />
+
+    <!-- Tailwind CDN with dark mode and custom colors -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#eff6ff',
+                100: '#dbeafe',
+                500: '#3b82f6',
+                600: '#2563eb',
+                700: '#1d4ed8',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-950 text-slate-100 selection:bg-blue-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
